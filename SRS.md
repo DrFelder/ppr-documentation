@@ -85,6 +85,7 @@ Every normal user can create new events, to become an organizer. An eventorganiz
 - required ressources (must have, optional)
 - the public/private(more details) description of the event
 - the place/location
+The information can be split into a public and a private part. The private part can only be seen by accepted teammembers.
 ##### Pre Condition
 User has an active account and is already logged in.
 ##### Normal Flow of Events
@@ -127,7 +128,7 @@ Both users have active accounts and are already logged in.
 #### 3.1.1.7 Access event history
 An overview over past events and related information is given.
 ##### Description
-The users will take part in many events, the oraganizer will evaluate the participant. In this overview the user can see his ratings, and the whole history of the events he was part of. he can view them in detail by clicking on them.
+The users will take part in many events, the oraganizer will assess the participant. In this overview the user can see his ratings, and the whole history of the events he was part of. he can view them in detail by clicking on them.
 ##### Pre Condition
 User has an active account and is already logged in. User has been accepted to at least one event
 ##### Normal Flow of Events
@@ -260,18 +261,21 @@ The invitation has to meet a requirement.
 
 ### 3.1.3 Participant
 #### 3.1.3.1 Join the event (access hidden information, join the team chat)
-After an application has been accepted, the user can access the team chat and hidden information of the event provided by the organizer.
 ##### Description
+After an application has been accepted, the user can access the team chat and hidden information of the event provided by the organizer.
 ##### Pre Condition
+User has an active account and is already logged in. User was accepted by an organizer.
 ##### Normal Flow of Events
-- event
+- The user will get a confirmation email
 
 #### 3.1.3.2 Assess team leaders
-After the event is concluded, participants can assess the team leader.
 ##### Description
+After the event is concluded, participants can assess the team leader.
 ##### Pre Condition
+User is logged in with an active account. User was part of the eventteam. Event is finished.
 ##### Normal Flow of Events
-- event
+- The form for the assessment will be shown
+- Email notification will be sent to the team leader
 
 ## 3.2 Usability
 
