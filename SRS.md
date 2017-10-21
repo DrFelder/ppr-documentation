@@ -372,12 +372,13 @@ Everything that is part of the PPR is licensed under the GNU General Public Lice
 (n/a)
 
 ## 3.12 Applicable Standards
-Used standards:
+Applied standards:
 - [HTTP 1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
 - [ECMAScript® 2017](https://www.ecma-international.org/ecma-262/8.0/)
 - [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt)
+
 Used recommendations:
 - [HTML5](https://www.w3.org/TR/html5/)
 
 # 4 Supporting Information
-To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look [links](#1.4 References) above 
+To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look at the [links](#1.4-references) above 
