@@ -54,11 +54,14 @@ The requirements are organized by user.
 #### 3.1.1.1 Create account
 A new account is created by the user, making it possible for him to log in and use the service.
 ##### Description
-
+The user has to type an email and a password combination and click on create new account. He will be directed to his profile page, where he will be able to edit it. 
 ##### Pre Condition
+The website is shown in the browser
 
 ##### Normal Flow of Events
-- event
+- A form will open, username and password will be entered
+- An insert query will be sent to the database
+- A notification for success or failure will be shown
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -69,11 +72,19 @@ A new account is created by the user, making it possible for him to log in and u
 #### 3.1.1.2 Edit profile
 The user edits his profile, providing information about himself.
 ##### Description
+Editing the profile includes:
+- changing profile pictures
+- available ressources
+- special abilities
+- information of himself/herself (public access)
 
 ##### Pre Condition
+User has an active account and is already logged in.
 
 ##### Normal Flow of Events
-- event
+- The edit form will be shown, desired fields will be changed
+- Update query will be sent to the database
+- A notification for success or failure will be shown
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -84,11 +95,20 @@ The user edits his profile, providing information about himself.
 #### 3.1.1.3 Create Event
 An event is created by a user, making him the organizer of the event.
 ##### Description
+Every normal user can create new events, to become an organizer. An eventorganizer must provide several informations about the upcoming event, like
+- minimum/maximum/absolute number of participants
+- required ressources (must have, optional)
+- the public/private(more details) description of the event
+- the place/location
+
 
 ##### Pre Condition
+User has an active account and is already logged in.
 
 ##### Normal Flow of Events
-- event
+- The create event form will be shown, required data will be filled in 
+- Insert query will be sent to the database
+- A notification for success or failure will be shown
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -99,11 +119,14 @@ An event is created by a user, making him the organizer of the event.
 #### 3.1.1.4 Apply for an event
 A user applies for participating in an event as a specified role or providing specified resources.
 ##### Description
+The user can apply for every event he likes. He can fill in the optional comment field.
 
 ##### Pre Condition
+User has an active account and is already logged in.
 
 ##### Normal Flow of Events
-- event
+- Apply form will be shown, the user confirms it
+- A mail will be sent to the organizer
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -114,11 +137,15 @@ A user applies for participating in an event as a specified role or providing sp
 #### 3.1.1.5 Manage applications
 An overview over submitted applications and the ability to withdraw them is provided.
 ##### Description
+The User will be given the opertunity to view all his applications. If the event has not taken place yet, the user will be given the oppertunity to withdraw it. 
 
 ##### Pre Condition
+User has an active account and is already logged in. User has applied and was accepted to at least one event.
 
 ##### Normal Flow of Events
-- event
+- Overview will be shown
+- Case withdraw: Eventorganizer will get a notification email
+- A notification for success or failure will be shown
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -129,11 +156,15 @@ An overview over submitted applications and the ability to withdraw them is prov
 #### 3.1.1.6 Chat with another user
 The user can chat with another user by inviting him.
 ##### Description
-
+All Users will have the oppertunity to chat with eachother. Go on the users profile you want to chat with and send him a chat invitation. If he accepts the invitation, a chat will open.
 ##### Pre Condition
+Both users have active accounts and are already logged in.
 
 ##### Normal Flow of Events
-- event
+- Sending email about chat invite to other user
+- accept -> open chat
+- decline -> notification to sender
+
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
@@ -144,11 +175,12 @@ The user can chat with another user by inviting him.
 #### 3.1.1.7 Access event history
 An overview over past events and related information is given.
 ##### Description
-
+The users will take part in many events, the oraganizer will evaluate the participant. In this overview the user can see his ratings, and the whole history of the events he was part of. he can view them in detail by clicking on them.
 ##### Pre Condition
+User has an active account and is already logged in. User has been accepted to at least one event
 
 ##### Normal Flow of Events
-- event
+- Overview will be shown
 
 ##### Use case diagram
 [![Use case diagram](Pictures/)](Pictures/)
