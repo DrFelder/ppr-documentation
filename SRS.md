@@ -381,4 +381,4 @@ Used recommendations:
 - [HTML5](https://www.w3.org/TR/html5/)
 
 # 4 Supporting Information
-To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look at the [links](#1.4-references) above 
+To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look at the [links](#14-references) above 
