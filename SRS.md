@@ -289,7 +289,6 @@ TODO: Farbenblinde und text groß
 ## 3.3 Reliability
 
 ### 3.3.1 Availability
-#### Description
 The tool should have a 95% uptime.
 As this tool is a webservice that the whole world can use, users should be able to access it every time they want to.
 The users will be warned about maintenance one day in advance. 
@@ -305,70 +304,80 @@ The average defect rate should not exceed 25 defects/KLOC during in-house testin
 
 
 ## 3.4 Performance
-[The system’s performance characteristics should be outlined in this section. Include specific response times. Where applicable, reference related Use Cases by name.
+The system should be fast enough to provide a good user experience.
+The UX should be comparable to common sites like [meetup.com](https://www.meetup.com).
+### 3.4.1 Response time
+The average response time for a transaction should be 250ms.
+The maximum response time for a transaction should be 1s.
 
-•               response time for a transaction (average, maximum)
+### 3.4.2 Transactions per second
+The transactions per seconds should not exceed 200 per second if the server that is available to us is going to be used to run the site.
 
-•               throughput, for example, transactions per second
+## 3.4.3 Resource utilization
+Resource utilization should be kept as low as possible.
+Some bottlenecks might be Spring MVC and OpenJDK.
 
-•               capacity, for example, the number of customers or transactions the system can accommodate
 
-•               degradation modes (what is the acceptable mode of operation when the system has been degraded in some manner)
+## 3.5 Supportability
+### 3.5.1 Coding standards
+We are going to use checkstyle and Google's coding convention to keep our Java code similar.
+If a team member has good reasons to validate the checkstyle rules, the code will still be accepted by the reviewer.
 
-•               resource utilization, such as memory, disk, communications, etc.
+### 3.5.2 Naming conventions
+For HTML naming conventions, we are going to stick with [BEM](http://getbem.com/) to create clean, reusable views.
 
-3.4.1          <Performance Requirement One>
-[The requirement description goes here.]
+## 3.6 Design Constraints
+### 3.6.1 Spring MVC
+Some constraints are caused by the Spring MVC, these affect the structure of our MVC and our code.
 
-3.5     Supportability
-[This section indicates any requirements that will enhance the supportability or maintainability of the system being built, including coding standards, naming conventions, class libraries, maintenance access, maintenance utilities.]
+### 3.6.2 Java
+Our software is going to be written in Java, which results in some constraints affecting the way our code interacts with the hardware.
+The software will run on a JVM.
 
-3.5.1          <Supportability Requirement One>
-[The requirement description goes here.]
+### 3.6.3 HTML5, CSS3, JavaScript
+The use of these technologies/languages to display the frontend constrains the design in many ways.
+Due to the fact that PPR is a web application there is no way around HTML5, CSS3 and JavaScript.
 
-3.6     Design Constraints
-[This section should indicate any design constraints on the system being built. Design constraints represent design decisions that have been mandated and must be adhered to.  Examples include software languages, software process requirements, prescribed use of developmental tools, architectural and design constraints, purchased components, class libraries, etc.]
+## 3.7
+### 3.7.1 Documentation scope
+The documentation should be extensive enough to fully explain the use of our tool to anyone.
 
-3.6.1          <Design Constraint One>
-[The requirement description goes here.]
+### 3.7.2 Documentation availability
+The documentation should be available online.
 
-3.7     On-line User Documentation and Help System Requirements
-[Describes the requirements, if any, for on-line user documentation, help systems, help about notices, etc.]
+### 3.8 Purchased Components
+(n/a)
 
-3.8     Purchased Components
-[This section describes any purchased components to be used with the system, any applicable licensing or usage restrictions, and any associated compatibility and interoperability or interface standards.]
+## 3.9 Interfaces
 
-3.9     Interfaces
-[This section defines the interfaces that must be supported by the application. It should contain adequate specificity, protocols, ports and logical addresses, etc. so that the software can be developed and verified against the interface requirements.]
+### 3.9.1 User Interfaces
+#### 3.9.1.1 Web Interface
+The software should provide a sophisticated user interface that can be accessed over the internet using a browser.
+The user will encounter different views whilst using the website.
 
-3.9.1          User Interfaces
-[Describe the user interfaces that are to be implemented by the software.]
+### 3.9.2 Hardware Interfaces
+(n/a)
 
-3.9.2          Hardware Interfaces
-[This section defines any hardware interfaces that are to be supported by the software, including logical structure, physical addresses, expected behavior, etc. ]
+### 3.9.3 Software Interfaces
+(n/a)
 
-3.9.3          Software Interfaces
-[This section describes software interfaces to other components of the software system. These may be purchased components, components reused from another application or components being developed for subsystems outside of the scope of this SRS but with which this software application must interact.]
+### 3.9.4 Communications Interfaces
+(n/a)
 
-3.9.4          Communications Interfaces
-[Describe any communications interfaces to other systems or devices such as local area networks, remote serial devices, etc.]
+## 3.10 Licensing Requirements
+### 3.10.1 GNU General Public License
+Everything that is part of the PPR is licensed under the GNU General Public License v3, including the documentation and the [blog](poetzschstroh.wordpress.com) contents. 
 
-3.10     Licensing Requirements
-[Defines any licensing enforcement requirements or other usage restriction requirements that are to be exhibited by the software.]
+## 3.11 Legal, Copyright, and Other Notices
+(n/a)
 
-3.11     Legal, Copyright, and Other Notices
-[This section describes any necessary legal disclaimers, warranties, copyright notices, patent notice, wordmark, trademark, or logo compliance issues for the software.]
+## 3.12 Applicable Standards
+Used standards:
+- [HTTP 1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+- [ECMAScript® 2017](https://www.ecma-international.org/ecma-262/8.0/)
+- [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt)
+Used recommendations:
+- [HTML5](https://www.w3.org/TR/html5/)
 
-3.12     Applicable Standards
-[This section describes by reference any applicable standard and the specific sections of any such standards which apply to the system being described. For example, this could include legal, quality and regulatory standards, industry standards for usability, interoperability, internationalization, operating system compliance, etc.]
-
-4.                  Supporting Information
-[The supporting information makes the SRS easier to use.  It includes:
-
-•               Table of contents
-
-•             Index
-
-•               Appendices
-
-These may include use-case storyboards or user-interface prototypes. When appendices are included, the SRS should explicitly state whether or not the appendices are to be considered part of the requirements.]
+# 4 Supporting Information
+To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look [links](#1.4 References) above 
