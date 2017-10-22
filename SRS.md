@@ -53,7 +53,7 @@ A new account is created by the user, making it possible for him to log in and u
 The user has to type an email and a password combination and click on create new account.
 He will be directed to his profile page, where he will be able to edit it. 
 ##### Pre Condition
-The website is shown in the browser
+- The user can access the website
 ##### Normal Flow of Operations
 - A form will open, username and password will be entered
 - An insert query will be sent to the database
@@ -68,7 +68,7 @@ Editing the profile includes:
 - special abilities
 - information of himself/herself (public access)
 ##### Pre Condition
-User has an active account and is already logged in.
+- The user should be logged in the system
 ##### Normal Flow of Operations
 - The edit form will be shown, desired fields will be changed
 - Update query will be sent to the database
@@ -84,7 +84,7 @@ An organizer must provide a good deal of information about the upcoming operatio
 - the date and time the operation takes place
 The information can be split into a public and a private part. The private part can only be seen by accepted team members.
 ##### Pre Condition
-User has an active account and is already logged in.
+- The user should be logged in the system
 ##### Normal Flow of Operations
 - The create operation form will be shown, required data will be filled in 
 - Insert query will be sent to the database
@@ -95,7 +95,7 @@ User has an active account and is already logged in.
 A user applies for participating in an operation as a specified role or providing specified resources.
 The user can apply for every operation he likes, he can fill in the optional comment field if he wants to.
 ##### Pre Condition
-User has an active account and is already logged in.
+- The user should be logged in the system
 ##### Normal Flow of Operations
 - Apply form will be shown, the user confirms it
 - The organizer will be informed
@@ -105,8 +105,8 @@ User has an active account and is already logged in.
 The User will be given the opportunity to view all his submitted applications.
 If the operation has not taken place yet, the user will be given the opportunity to withdraw it. 
 ##### Pre Condition
-User has an active account and is already logged in.
-User has applied and was accepted to at least one operation.
+- The user should be logged in the system
+- The user should have applied to take part in an operation
 ##### Normal Flow of Operations
 - Overview will be shown
 - Case withdraw: Operationorganizer will get a notification email
@@ -118,7 +118,7 @@ The user can chat with another user by inviting him.
 All Users will have the opportunity to chat with each other by going to the users profile they want to chat with and sending them an invitation.
 If they accept the invitation, a chat will be opened.
 ##### Pre Condition
-Both users have active accounts and are already logged in.
+- Both users should be logged in the system
 ##### Normal Flow of Operations
 - A user will invite another user to chat
 - The invited user will be informed
@@ -131,7 +131,8 @@ An overview over past operations and related information is given.
 In this overview the user can see his ratings, and the whole history of operations that he has been a part of.
 He can view them in detail by clicking on them.
 ##### Pre Condition
-User has an active account and is already logged in. User has been accepted to at least one operation
+- The user should be logged in the system
+- The user should have taken part in an operation
 ##### Normal Flow of Operations
 - Overview will be shown
 - Once one operation is selected, a detailed view will provide more information
@@ -293,7 +294,13 @@ After 30 minutes, a user should be able to participate in an operation, to creat
 - The user knows how to fully operate a PC
 - The user has access to the documentation or a person that can explain the tool to him
 
-TODO: Farbenblinde und text groß
+### 3.2.2 Accessibility by the visually impaired
+#### Description
+Insufficient contrast and small text make it hard to use the website for all users.
+The minimum contrast ratio should be 4.5:1, the developers should try to keep the contrast ration at 7:1.
+Text on the website should not be smaller than 11pt.
+The website should be easily usable by persons that are colorblind.
+
 
 ## 3.3 Reliability
 
@@ -391,4 +398,4 @@ Used recommendations:
 
 
 # 4 Supporting Information
-To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look at the [links](#14-references) above 
+To get the latest news about the project, please visit our [blog](poetzschstroh.wordpress.com) or have a look at the [links](#14-references) above.
