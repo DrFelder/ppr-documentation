@@ -16,6 +16,9 @@ This document covers the entire project in every aspect.
 - **PPR** - Project Puerto Rico
 - **PPRD** - Project Puerto Rico Documentation
 - **UC** - Use Case
+- **KLOC** - Kilo Line Of Code (1,000 lines of code)
+- **UX** - User Experience
+- **MVC** - Model View Controller
 
 ## 1.4 References
 |			Title									                            |	Date		|
@@ -337,7 +340,7 @@ Some bottlenecks might be Spring MVC and OpenJDK.
 ## 3.5 Supportability
 ### 3.5.1 Coding standards
 We are going to use checkstyle and Google's coding convention to keep our Java code similar.
-If a team member has good reasons to validate the checkstyle rules, the code will still be accepted by the reviewer.
+If a team member has good reasons to violate the checkstyle rules, the code will still be accepted by the reviewer.
 
 ### 3.5.2 Naming conventions
 For HTML naming conventions, we are going to stick with [BEM](http://getbem.com/) to create clean, reusable views.
