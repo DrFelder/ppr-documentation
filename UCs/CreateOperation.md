@@ -7,7 +7,9 @@ Every normal user can create new operations, making him the organizer of the new
 - required ressources (must have, optional)
 - the public and the public description of the operation
 - the place/location
-- the date and time the operation takes place The information can be split into a public and a private part. The private part can only be seen by accepted team members.
+- the date and time the operation takes place 
+
+The information can be split into a public and a private part. The private part can only be seen by accepted team members.
 
 # 2 Flow of Events
 ## 2.1 Basic Flow
