@@ -17,7 +17,7 @@ Every normal user can create new operations, making him the organizer of the new
 - User clicks on "cancel" to close the form without saving the operation.
 
 ### Activity Diagram
-[Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
 
 ## 2.2 Alternative Flows
 (n/a)
