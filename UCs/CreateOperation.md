@@ -21,7 +21,7 @@ The information can be split into a public and a private part. The private part 
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
 
-### 2.1.2 Wireframe
+### 2.1.2 Mock-up
 ![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
 
 ## 2.2 Alternative Flows

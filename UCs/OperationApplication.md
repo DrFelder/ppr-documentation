@@ -18,7 +18,7 @@ The user can apply for every operation he likes, he can fill in the optional que
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](../Diagrams/UCs/OperationApplicationActivityDiagram.jpg)
 
-### 2.1.2 Wireframe
+### 2.1.2 Mock-up
 ![Apply For Operation Wireframe](../Pictures/Wireframes/ApplicationPopup.png)
 
 ## 2.2 Alternative Flows
