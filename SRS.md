@@ -96,12 +96,9 @@ The information can be split into a public and a private part. The private part 
 #### 3.1.1.4 Apply for an operation
 ##### Description
 A user applies for participating in an operation as a specified role or providing specified resources.
-The user can apply for every operation he likes, he can fill in the optional comment field if he wants to.
-##### Pre Condition
-- The user should be logged in the system
-##### Normal Flow of Operations
-- Apply form will be shown, the user confirms it
-- The organizer will be informed
+The user can apply for every operation he likes, he can fill in the optional question field if he wants to.
+
+This Use Case is specified in a [seperate document](UCs/OperationApplication.md).
 
 #### 3.1.1.5 Manage applications
 ##### Description
