@@ -86,6 +86,9 @@ An organizer must provide a good deal of information about the upcoming operatio
 - the place/location
 - the date and time the operation takes place
 The information can be split into a public and a private part. The private part can only be seen by accepted team members.
+
+This Use Case is specified in a [seperate document](UCs/CreateOperation.md).
+
 ##### Pre Condition
 - The user should be logged in the system
 ##### Normal Flow of Operations
