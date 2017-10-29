@@ -18,8 +18,11 @@ The information can be split into a public and a private part. The private part 
 - User clicks on "create" to create the operation, he will be sent to the details view of the operation. A success message will be shown.
 - User clicks on "cancel" to close the form without saving the operation.
 
-### Activity Diagram
+### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+
+### 2.1.2 Wireframe
+![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
 
 ## 2.2 Alternative Flows
 (n/a)
