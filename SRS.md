@@ -21,12 +21,14 @@ This document covers the entire project in every aspect.
 - **MVC** - Model View Controller
 
 ## 1.4 References
-|			Title									                            |	Date		|
+|			Title									                                                    |	Date		      |
 |-------------------------------------------------------------------------------|---------------|
 | [PPR Blog](https://poetzschstroh.wordpress.com/)                              | 21.10.17      |
 | [PPR Repository](https://github.com/DrFelder/ppr)                             | 21.10.17      |
 | [PPR Documentation Repository](https://github.com/DrFelder/ppr-documentation) | 21.10.17      |
 | [PPR Issue Tracker](https://youtrack.surreal.is/)                             | 21.10.17      |
+| [Create Operation UC specification](UCs/CreateOperation.md)                   | 02.11.17      |
+| [Apply for an operation UC specification](UCs/OperationApplication.md)        | 02.11.17      |
 
 ## 1.5 Overview of the SRS
 The following chapters are about our vision and perspective, the software requirements, the demands we have, licensing and the technical realisation of this project.
