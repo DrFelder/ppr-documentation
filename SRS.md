@@ -62,6 +62,18 @@ He will be directed to his profile page, where he will be able to edit it.
 - An insert query will be sent to the database
 - A notification for success or failure will be shown
 
+#### 3.1.1.1 Log in
+##### Description
+The user will log in to use our services.
+They have to enter a username/password combination. 
+##### Pre Condition
+- The user can access the website
+##### Normal Flow of Operations
+- A form will open, username and password will be entered
+- An insert query will be sent to the database
+- If the combination is wrong, the user will be presented an error message.
+- If the combination is correct, the user will be logged in
+
 #### 3.1.1.2 Edit profile
 ##### Description
 The user edits his profile, providing information about himself.
