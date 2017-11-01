@@ -41,7 +41,7 @@ Our platform is designed to provide a secure way to bring helpers together and o
 Users can represent themselves and their skills using a profile, create operations, and specify the resources and helper needed.
 Others may then apply, and if the project leader considers them to be qualified, participate in the project.
 The following diagram shows the UCs:
-[![Overall use case diagram](Pictures/PPR-UseCases.jpg)](Pictures/PPR-UseCases.jpg)
+[![Overall use case diagram](Diagrams/PPR-UseCases.jpg)](Diagrams/PPR-UseCases.jpg)
 
 
 # 3 Specific Requirements
