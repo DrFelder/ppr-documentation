@@ -5,7 +5,7 @@ Create operation
 Every normal user can create new operations, making him the organizer of the newly created operation. An organizer must provide a good deal of information about the upcoming operation, like
 
 - required ressources (must have, optional)
-- the public and the public description of the operation
+- the public and the private description of the operation
 - the place/location
 - the date and time the operation takes place 
 
