@@ -47,7 +47,9 @@ n/a
 ### 5.1 Overview
 n/a
 ### 5.2 Architecturally Significant Design Packages
-n/a
+The class diagram; containing all Data Access Objects, Models and Controllers that we will need to finish the basic functionality:
+![Class Diagram](../Diagrams/Architecture/classDiagram.jpg)
+
 ## 6. Process View
 n/a
 ## 7. Deployment View
@@ -58,7 +60,8 @@ n/a
 ### 8.2 Layers
 n/a
 ## 9. Data View
-n/a
+The database diagram; containing all tables that we will need to finish the basic functionality:
+![Database Diagram](../Diagrams/Architecture/databaseDiagram.jpg)
 ## 10. Size and Performance
 n/a
 ## 11. Quality
