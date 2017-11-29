@@ -37,7 +37,7 @@ n/a
 ### 1.5 Overview
 The architectural details will be described in the following sections. This includes the class diagrams and the db schema, both give an overview about the whole project, while the different views will focus on the detailed aspects.
 ## 2. Architectural Representation
-n/a
+![Architectural Representation](../Diagrams/Architecture/ArchitecturalRepresentation.png)
 ## 3. Architectural Goals and Constraints
 n/a
 ## 4. Use-Case View
