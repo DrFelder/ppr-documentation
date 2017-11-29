@@ -54,7 +54,9 @@ Spring Web MVC and Thymeleaf come with some restraints concerning the programmin
 ### 5.2 Architecturally Significant Design Packages
 The views are HTML templates and not classes, and they are not part of this template.
 The class diagram containing all Data Access Objects, Models and Controllers that we will need to finish the basic functionality:
-![Class Diagram](../Diagrams/Architecture/classDiagram.jpg)
+![Class Diagram](../Diagrams/Architecture/classDiagramAreas.jpg)
+Our views are not part of the diagram, but you can see a list right here:
+![View List](../Diagrams/Architecture/ViewList.png)
 
 ## 6. Process View
 n/a
