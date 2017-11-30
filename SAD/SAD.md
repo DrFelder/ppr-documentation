@@ -41,23 +41,29 @@ This includes the class diagrams and the database schema, both give an overview 
 ## 2. Architectural Representation
 Due to the fact that we are developing a web application we decided to use a standard MVC pattern.
 We are using controllers to handle our requests, and deliver rendered views.
+
 ![Architectural Representation](../Diagrams/Architecture/ArchitecturalRepresentation.png)
+
 ## 3. Architectural Goals and Constraints
 The technology that we are using is Spring Web MVC.
 For our Views, we are not using Java Classes, but Thymeleaf templates.
 Spring Web MVC and Thymeleaf come with some restraints concerning the programming paradigms and the architecture design.
 ## 4. Use-Case View
 ### 4.1 Use-Case Realizations
+
 ![Overall Use Case Diagram](../Diagrams/PPR-UseCases.jpg)
+
 ## 5. Logical View
 ### 5.1 Overview
 ### 5.2 Architecturally Significant Design Packages
 The views are HTML templates and not classes, and they are not part of this template.
 The class diagram containing all Data Access Objects, Models and Controllers that we will need to finish the basic functionality:
+
 ![Class Diagram](../Diagrams/Architecture/classDiagramAreas.jpg)
 You can open the image using [this link](https://raw.githubusercontent.com/DrFelder/ppr-documentation/master/Diagrams/Architecture/classDiagramAreas.jpg).
  
 Our views are not part of the diagram, but you can see a list right here:
+
 ![View List](../Diagrams/Architecture/ViewList.png)
 
 ## 6. Process View
@@ -65,7 +71,9 @@ n/a
 ## 7. Deployment View
 We are packaging the application as a *war*, and it will be running on an Apache Tomcat.
 You can see our corresponding diagram below:
+
 ![Deployment View Diagram](../Diagrams/Architecture/DeploymentViewDiagram.jpg)
+
 ## 8. Implementation View
 ### 8.1 Overview
 n/a
@@ -73,7 +81,9 @@ n/a
 n/a
 ## 9. Data View
 The database diagram; containing all tables that we will need to finish the basic functionality:
+
 ![Database Diagram](../Diagrams/Architecture/databaseDiagram.jpg)
+
 ## 10. Size and Performance
 n/a
 ## 11. Quality
