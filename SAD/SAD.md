@@ -62,7 +62,8 @@ Our views are not part of the diagram, but you can see a list right here:
 n/a
 ## 7. Deployment View
 We are packaging the application as a *war*, and it will be running on an Apache Tomcat.
-Everything that is part of the PPR will be deployed.
+You can see our corresponding diagram below:
+![Deployment View Diagram](../Diagrams/Architecture/DeploymentViewDiagram.jpg)
 ## 8. Implementation View
 ### 8.1 Overview
 n/a
