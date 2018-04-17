@@ -16,6 +16,7 @@ Editing an operation is pretty important, some important data may change and the
 ![Edit Operation Activity Diagram](../Diagrams/UCs/EditOperation.jpg)
 
 ### 2.1.2 Mock-up
+![Start Operation Mockup](../Pictures/Wireframes/EditOperationDetail.png)
 
 
 ### 2.1.3 Narrative
