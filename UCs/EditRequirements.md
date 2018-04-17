@@ -11,6 +11,7 @@ The organizer of an operation can add requirements to an operation. Some of the 
 - Organizer clicks on "edit requirement" 
 - Organizer edits the requirement data
 - Organizer clicks on "save", he will be sent to the operation details page
+- Oragnizer clicks on "delete", he will be sent to the operation details page
 - Organizer clicks on "cancel", he will be sent to the operation details page
 
 
