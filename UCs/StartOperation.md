@@ -16,6 +16,9 @@ The organizer of an operation has the opportunity to start his operation. All th
 ![Start Operation Activity Diagram](../Diagrams/UCs/StartOperation.jpg)
 
 ### 2.1.2 Mock-up
+![Start Operation Mockup](../Pictures/Wireframes/StartOperationPopup.png)
+
+![Start Operation Mockup](../Pictures/Wireframes/StartOperationNotification.png)
 
 
 ### 2.1.3 Narrative
