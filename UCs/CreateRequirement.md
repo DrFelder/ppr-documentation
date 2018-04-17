@@ -16,7 +16,7 @@ those requirements and the users can apply for them.
 ![Create Requirement Activity Diagram](../Diagrams/UCs/CreateRequirement.jpg)
 
 ### 2.1.2 Mock-up
-
+![Start Operation Mockup](../Pictures/Wireframes/CreateRequirement.png)
 
 ### 2.1.3 Narrative
 (n/a)
