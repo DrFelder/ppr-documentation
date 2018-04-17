@@ -18,7 +18,7 @@ The organizer of an operation can add requirements to an operation. Some of the 
 ![Edit Requirement Activity Diagram](../Diagrams/UCs/UpdateRequirement.jpg)
 
 ### 2.1.2 Mock-up
-![Start Operation Mockup](../Pictures/Wireframes/CreateRequirement.png)
+![Start Operation Mockup](../Pictures/Wireframes/EditRequirement.png)
 
 ### 2.1.3 Narrative
 (n/a)
