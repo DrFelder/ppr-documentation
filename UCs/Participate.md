@@ -2,20 +2,20 @@
 Participate in an operation
 
 ## 1.1 Brief Description
-The operation owner can choose users from the given applications. The user can accept the participation, afterwards it is considered binding.
+Once the user is participating in an operation, he can access the team chat and hidden information about the operation provided by the organizer.
 
 # 2 Flow of Events
 ## 2.1 Basic Flow
-- User clicks in "participate" Button
-- User accepts the participation, he will be sent to the operation details page
-- User declines the participation, he will be sent to the operations details page
+- User accesses the project detail page
+- User can see the hidden operation information and the minified operation chat popup
+- User can minimize and maximize the chat popup
 
 
 ### 2.1.1 Activity Diagram
 ![Participate in an operation Activity Diagram](../Diagrams/UCs/Participate.jpg)
 
 ### 2.1.2 Mock-up
-
+![Participate in an operation wireframe](../Pictures/Wireframes/OperationDetailWithChat.png)
 
 ### 2.1.3 Narrative
 (n/a)
@@ -28,9 +28,10 @@ The operation owner can choose users from the given applications. The user can a
 
 # 4 Preconditions
 ## 4.1 Login
-The user has to be logged in to the system.
-## 4.2 Own Operation
-The user has to be an organizer of the operation.
+The user has an active account and is already logged in.
+## 4.2 Be an accepted member of the Operation
+The user was accepted by an organizer.
+
 # 5 Postconditions
 (n/a)
  

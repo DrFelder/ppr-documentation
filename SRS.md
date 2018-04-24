@@ -280,7 +280,7 @@ The invitation has to meet a requirement.
 - The organizer will be informed about the outcome of the invitation
 
 ### 3.1.3 Participant
-#### 3.1.3.1 Join the operation (access hidden information, join the team chat)
+#### 3.1.3.1 Participate in an operation (access hidden information, join the team chat)
 ##### Description
 After an application has been accepted, the user can access the team chat and hidden information of the operation provided by the organizer.
 ##### Pre Condition
