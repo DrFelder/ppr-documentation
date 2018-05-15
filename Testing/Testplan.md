@@ -2,12 +2,6 @@
 
 Version 1.0
 
-## Revision History
-
-| **Date** | **Version** | **Description** | **Author** |
-| --- | --- | --- | --- |
-| 14.05.2018 | 1.0 | Initial Version | Stephan Stroh, Thomas Pötzsch |
-
 # Table of Contents
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
@@ -44,6 +38,13 @@ Version 1.0
     - [Staffing and Training Needs](#102-staffing-and-training-needs)
 - [Iteration Milestones](#11-iteration-milestones)
 - [Risks, Dependencies, Assumptions and Constraints](#12-risks-dependencies-assumptions-and-constraints)
+
+# Revision History
+
+| **Date** | **Version** | **Description** | **Author** |
+| --- | --- | --- | --- |
+| 14.05.2018 | 1.0 | Initial Version | Stephan Stroh, Thomas Pötzsch |
+
 
 ## 1. Introduction
 ###  1.1 Purpose
@@ -287,7 +288,7 @@ All necessary roles are staffed by members of the project team.
 
 # 12. Risks, Dependencies, Assumptions, and Constraints
 The risk for our project are outlined in our 
-<a https://github.com/DrFelder/ppr-documentation/blob/master/ProjectManagement/RiskManagement.md"> risk assessment 
+<a href="https://github.com/DrFelder/ppr-documentation/blob/master/ProjectManagement/RiskManagement.md"> risk management 
 document </a>.
 
 ## 13. Management Process and Procedures
