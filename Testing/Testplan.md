@@ -277,18 +277,37 @@ All unit tests are then automatically executed on a build.
 The developer can also test parts of the new code by running the tests from his IDE.
 
 ## 9. Environmental Needs
+The test plan also lists the non-human resources.
 
 ### 9.1 Base System Hardware
+| Resource | Quantity | Name and Type |
+|---|---|---|
+| Integration Server | 1 | Linux Server |
+| Server Name |  	| ppr.surreal.is |
+| Development Server	| 1 | <Server>	|
+| Server Name |  | localhost |
+| Database | 2 | <Name>	|
+| Database Name |  | ppr.surreal.is |
+| Database Name |  | localhost |
 
 ### 9.2 Base Software Elements in the Test Environment
+| Software Element Name | Version | Type and Other Notes |
+|---|---|---|
+| Windows | 10 | Operating System |
+| macOS | 10 | Operating System |
+| Chrome |  66	| Internet Browser |
+| MySQL | 8 | Database |
 
 ### 9.3 Productivity and Support Tools
-
+| Tool Category or Type | Tool Brand Name                              |
+|-----------------------|----------------------------------------------|
+| Code Hoster           | [github.com](http://github.com/)             |
+| CI Service            | [Travis CI](http://travis-ci.org/)           |
 ### 9.4 Test Environment Configurations
+The database needs to be set up.
 
 ## 10. Responsibilities, Staffing, and Training Needs
 ### 10.1 People and Roles
-
 This table displays the staffing assumptions for the test effort of our project.
 
 |Role|Minimum Resources Recommended|Specific Responsibilities|
