@@ -1,6 +1,6 @@
 # Test Plan -  Project Puerto Rico
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
     - [Scope](#12-scope)
@@ -37,7 +37,7 @@
 - [Iteration Milestones](#11-iteration-milestones)
 - [Risks, Dependencies, Assumptions and Constraints](#12-risks-dependencies-assumptions-and-constraints)
 
-# Revision History
+## Revision History
 Version 1.0
 
 | **Date** | **Version** | **Description** | **Author** |
@@ -118,21 +118,25 @@ results.
 The following list identifies the tested parts of our application. Tests will cover the main backend functionality as 
 well as the logical implementations.
 
-- Controller
-- Model
+- frontend (web)
+- backend (Java) | database operations
 
 ## 4. Outline of Planned Tests
 
 
 ### 4.1 Outline of Test Inclusions
 
-Backend functionality will be tested with unit tests.
+- Backend functionality will be tested with unit tests.
+- Logical functionality will be tested with unit tests.
+- Database Integrity will be tested with unit tests.
 
-Logical functionality will be tested with unit tests.
 
 ### 4.2 Outline of Other Candidates for Potential Inclusion
+There are possible additional options for testing but these are not in scope of our testing yet.
 
-An additional option for testing would be the user interface as well as the testing of the performance of the application.
+- testing the user interface
+- testing the performance of the application
+- stress testing the server
 
 ### 4.3 Outline of Test Exclusions
 
@@ -149,15 +153,24 @@ be a good way to find bugs and problems in software early and reliable.
 ### 5.2 Testing Techniques and Types
 
 #### 5.2.1 Data and Database Integrity Testing
-n/a
+
+
+|||
+|---|---|
+|Technique Objective  	| Exercise database access and observe behaviour |
+|Technique 		|  Execute queries and observe desired results with other queries |
+|Oracles 		|  Queries will store and delete data and it will be represented in the database   |
+|Required Tools 	| JUnit	 |
+|Success Criteria	|    All tests pass         |
+|Special Considerations	|     -          |
 
 #### 5.2.2 Function Testing
-
-| Technique Objective: | Assert correct behavior of each functionality of the project |
+|||
 | --- | --- |
+| Technique Objective: | Assert correct behavior of each functionality of the project |
 | Technique: | Creation of unit tests for each functionality that is part of model or controller |
 | Oracles: |  Successful execution of unit tests in Unity Test Runner - Successful execution of unit tests on build |
-| Required Tools: | TBD |
+| Required Tools: | JUnit |
 | Success Criteria: | All tests pass and the required code coverage is given. TravisCI build passes and all tests run green |
 | Special Considerations: | -|
 
@@ -165,7 +178,14 @@ n/a
 n/a
 
 #### 5.2.4 User Interface Testing
-n/a
+|| |
+|---|---|
+|Technique Objective  	| Exercise the most scenarios to observe and log standards conformance and target behavior |
+|Technique |  Execute each use-case scenario’s individual use-case flows or functions and features, using valid and invalid data |
+|Oracles |  user enter valid data, for example a valid username and a valid password   |
+|Required Tools | Selenium, Cucumber	 |
+|Success Criteria |    All tests pass         |
+|Special Considerations	|     -          |
 
 #### 5.2.5 Performance Profiling
 n/a
