@@ -218,6 +218,11 @@ Occurring errors during the build terminate the test cycle.
 
 ### 7.1 Test Evaluation Summaries
 
+| Continuous Integration Service                              | Badge |
+|-------------------------------------------------------------|:-----:|
+| [Travis CI](https://travis-ci.org/DrFelder/ppr/) | [![Build Status](https://travis-ci.org/DrFelder/ppr.svg?branch=CreateJUintTests)](https://travis-ci.org/DrFelder/ppr) |
+
+
 
 ### 7.2 Reporting on Test Coverage
 n/a
