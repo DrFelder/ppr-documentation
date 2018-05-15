@@ -1,6 +1,4 @@
-# Test Plan Project Puerto Rico
-
-Version 1.0
+# Test Plan -  Project Puerto Rico
 
 # Table of Contents
 - [Introduction](#1-introduction)
@@ -40,11 +38,11 @@ Version 1.0
 - [Risks, Dependencies, Assumptions and Constraints](#12-risks-dependencies-assumptions-and-constraints)
 
 # Revision History
+Version 1.0
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 14.05.2018 | 1.0 | Initial Version | Stephan Stroh, Thomas Pötzsch |
-
 
 ## 1. Introduction
 ###  1.1 Purpose
@@ -53,7 +51,7 @@ The purpose of the Iteration Test Plan is to gather all of the information neces
 effort for a given iteration. It describes the approach to testing the software, and is the top-level plan generated 
 and used by managers to direct the test effort.
 
-This Test plan for Poject Puerto Rico supports the following objectives:
+This Test plan for Project Puerto Rico supports the following objectives:
 - Identifying the items that should be targeted by the tests.
 - Identifying the motivation for and ideas behind the test areas to be covered.
 - Outlining the testing approach that will be used.
@@ -66,9 +64,10 @@ correctly throughout the development.
 
 ### 1.3 Intended Audience
 
-This document is written for internal usage by the project team and contains technically detailed informations.
-The description of the application itself is not part of it. Therefore this document is for the developement team and 
-for readers with the necessary background knowledge.
+This document is written mainly for internal usage by the project team and contains technically detailed informations
+about testing the application.
+The basic description of the application itself is not part of it. Therefore this document is for the developers and 
+for readers with the necessary background knowledge. However, everyone interested is invited to read this document.
 
 ### 1.4 Document Terminology and Acronyms
 
@@ -85,11 +84,12 @@ for readers with the necessary background knowledge.
 - [Blog](https://poetzschstroh.wordpress.com/)
 - [GitHub](https://github.com/DrFelder/ppr)
 - [Documentation](https://github.com/DrFelder/ppr-documentation)
+- [SRS](https://github.com/DrFelder/ppr-documentation/blob/master/SRS.md)
 - [Use Case Diagram](https://github.com/DrFelder/ppr-documentation/blob/master/Diagrams/PPR-UseCases.jpg)
 - [Risk Management](https://github.com/DrFelder/ppr-documentation/blob/master/ProjectManagement/RiskManagement.md)
 
 ### 1.6 Document Structure
-See Table of Contents
+See [Table of Contents](#-table-of-contents)
 
 ## 2. Evaluation Mission and Test Motivation
 
