@@ -169,7 +169,7 @@ be a good way to find bugs and problems in software early and reliable.
 | --- | --- |
 | Technique Objective: | Assert correct behavior of each functionality of the project |
 | Technique: | Creation of unit tests for each functionality that is part of model or controller |
-| Oracles: |  Successful execution of unit tests in Unity Test Runner - Successful execution of unit tests on build |
+| Oracles: |  Successful execution of unit tests using the JUnit Test Runner - Successful execution of unit tests on build |
 | Required Tools: | JUnit |
 | Success Criteria: | All tests pass and the required code coverage is given. TravisCI build passes and all tests run green |
 | Special Considerations: | -|
