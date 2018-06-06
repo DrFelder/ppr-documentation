@@ -1,8 +1,6 @@
-# Test Plan Project Puerto Rico
+# Test Plan -  Project Puerto Rico
 
-Version 1.0
-
-# Table of Contents
+## Table of Contents
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
     - [Scope](#12-scope)
@@ -39,12 +37,12 @@ Version 1.0
 - [Iteration Milestones](#11-iteration-milestones)
 - [Risks, Dependencies, Assumptions and Constraints](#12-risks-dependencies-assumptions-and-constraints)
 
-# Revision History
+## Revision History
+Version 1.0
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 14.05.2018 | 1.0 | Initial Version | Stephan Stroh, Thomas Pötzsch |
-
 
 ## 1. Introduction
 ###  1.1 Purpose
@@ -53,7 +51,7 @@ The purpose of the Iteration Test Plan is to gather all of the information neces
 effort for a given iteration. It describes the approach to testing the software, and is the top-level plan generated 
 and used by managers to direct the test effort.
 
-This Test plan for Poject Puerto Rico supports the following objectives:
+This Test plan for Project Puerto Rico supports the following objectives:
 - Identifying the items that should be targeted by the tests.
 - Identifying the motivation for and ideas behind the test areas to be covered.
 - Outlining the testing approach that will be used.
@@ -66,9 +64,10 @@ correctly throughout the development.
 
 ### 1.3 Intended Audience
 
-This document is written for internal usage by the project team and contains technically detailed informations.
-The description of the application itself is not part of it. Therefore this document is for the developement team and 
-for readers with the necessary background knowledge.
+This document is written mainly for internal usage by the project team and contains technically detailed informations
+about testing the application.
+The basic description of the application itself is not part of it. Therefore this document is for the developers and 
+for readers with the necessary background knowledge. However, everyone interested is invited to read this document.
 
 ### 1.4 Document Terminology and Acronyms
 
@@ -85,11 +84,12 @@ for readers with the necessary background knowledge.
 - [Blog](https://poetzschstroh.wordpress.com/)
 - [GitHub](https://github.com/DrFelder/ppr)
 - [Documentation](https://github.com/DrFelder/ppr-documentation)
+- [SRS](https://github.com/DrFelder/ppr-documentation/blob/master/SRS.md)
 - [Use Case Diagram](https://github.com/DrFelder/ppr-documentation/blob/master/Diagrams/PPR-UseCases.jpg)
 - [Risk Management](https://github.com/DrFelder/ppr-documentation/blob/master/ProjectManagement/RiskManagement.md)
 
 ### 1.6 Document Structure
-See Table of Contents
+See [Table of Contents](#-table-of-contents)
 
 ## 2. Evaluation Mission and Test Motivation
 
@@ -118,21 +118,25 @@ results.
 The following list identifies the tested parts of our application. Tests will cover the main backend functionality as 
 well as the logical implementations.
 
-- Controller
-- Model
+- frontend (web)
+- backend (Java) | database operations
 
 ## 4. Outline of Planned Tests
 
 
 ### 4.1 Outline of Test Inclusions
 
-Backend functionality will be tested with unit tests.
+- Backend functionality will be tested with unit tests.
+- Logical functionality will be tested with unit tests.
+- Database Integrity will be tested with unit tests.
 
-Logical functionality will be tested with unit tests.
 
 ### 4.2 Outline of Other Candidates for Potential Inclusion
+There are possible additional options for testing but these are not in scope of our testing yet.
 
-An additional option for testing would be the user interface as well as the testing of the performance of the application.
+- testing the user interface
+- testing the performance of the application
+- stress testing the server
 
 ### 4.3 Outline of Test Exclusions
 
@@ -149,15 +153,24 @@ be a good way to find bugs and problems in software early and reliable.
 ### 5.2 Testing Techniques and Types
 
 #### 5.2.1 Data and Database Integrity Testing
-n/a
+
+
+|||
+|---|---|
+|Technique Objective  	| Exercise database access and observe behaviour |
+|Technique 		|  Execute queries and observe desired results with other queries |
+|Oracles 		|  Queries will store and delete data and it will be represented in the database   |
+|Required Tools 	| JUnit	 |
+|Success Criteria	|    All tests pass         |
+|Special Considerations	|     -          |
 
 #### 5.2.2 Function Testing
-
-| Technique Objective: | Assert correct behavior of each functionality of the project |
+|||
 | --- | --- |
+| Technique Objective: | Assert correct behavior of each functionality of the project |
 | Technique: | Creation of unit tests for each functionality that is part of model or controller |
-| Oracles: |  Successful execution of unit tests in Unity Test Runner - Successful execution of unit tests on build |
-| Required Tools: | TBD |
+| Oracles: |  Successful execution of unit tests using the JUnit Test Runner - Successful execution of unit tests on build |
+| Required Tools: | JUnit |
 | Success Criteria: | All tests pass and the required code coverage is given. TravisCI build passes and all tests run green |
 | Special Considerations: | -|
 
@@ -165,7 +178,14 @@ n/a
 n/a
 
 #### 5.2.4 User Interface Testing
-n/a
+|| |
+|---|---|
+|Technique Objective  	| Exercise the most scenarios to observe and log standards conformance and target behavior |
+|Technique |  Execute each use-case scenario’s individual use-case flows or functions and features, using valid and invalid data |
+|Oracles |  user enter valid data, for example a valid username and a valid password   |
+|Required Tools | Selenium, Cucumber	 |
+|Success Criteria |    All tests pass         |
+|Special Considerations	|     -          |
 
 #### 5.2.5 Performance Profiling
 n/a
@@ -263,18 +283,37 @@ All unit tests are then automatically executed on a build.
 The developer can also test parts of the new code by running the tests from his IDE.
 
 ## 9. Environmental Needs
+The test plan also lists the non-human resources.
 
 ### 9.1 Base System Hardware
+| Resource | Quantity | Name and Type |
+|---|---|---|
+| Integration Server | 1 | Linux Server |
+| Server Name |  	| ppr.surreal.is |
+| Development Server	| 1 | <Server>	|
+| Server Name |  | localhost |
+| Database | 2 | <Name>	|
+| Database Name |  | ppr.surreal.is |
+| Database Name |  | localhost |
 
 ### 9.2 Base Software Elements in the Test Environment
+| Software Element Name | Version | Type and Other Notes |
+|---|---|---|
+| Windows | 10 | Operating System |
+| macOS | 10 | Operating System |
+| Chrome |  66	| Internet Browser |
+| MySQL | 8 | Database |
 
 ### 9.3 Productivity and Support Tools
-
+| Tool Category or Type | Tool Brand Name                              |
+|-----------------------|----------------------------------------------|
+| Code Hoster           | [github.com](http://github.com/)             |
+| CI Service            | [Travis CI](http://travis-ci.org/)           |
 ### 9.4 Test Environment Configurations
+The database needs to be set up.
 
 ## 10. Responsibilities, Staffing, and Training Needs
 ### 10.1 People and Roles
-
 This table displays the staffing assumptions for the test effort of our project.
 
 |Role|Minimum Resources Recommended|Specific Responsibilities|
